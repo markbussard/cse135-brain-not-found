@@ -1,0 +1,45 @@
+@import './variables.css';
+
+.about {
+  overflow: hidden;
+  display: flex;
+}
+
+.about-info {
+  width: 40%;
+  padding-right: 4rem;
+  padding-left: 0;
+}
+
+.about-img {
+  width: 40%;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-info {
+    padding: 0;
+  }
+  .about-img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about-info {
+    width: 100%;
+    padding: 2rem 0 0;
+  }
+
+  .about-img {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  img {
+    width: 100% !important;
+  }
+}

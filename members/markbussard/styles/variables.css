@@ -1,0 +1,32 @@
+/****** Variables ******/
+:root {
+  --white: #fff;
+  --dark-black: #000;
+  --black: #232320;
+  --light-black: #333;
+  --grey: #909090;
+  --light-grey: rgba(51,51,51,.6);
+  --form-grey: #fafafa;
+}
+
+/****** Fonts ******/
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/static/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  font-style: bold;
+  font-weight: 400;
+  src: url("../fonts/static/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/static/Roboto/Roboto-Italic.ttf") format("truetype");
+}

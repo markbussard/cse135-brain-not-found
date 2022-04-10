@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Portfolio Site" />
+  <meta name="author" content="Mark Bussard" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mark Bussard's Personal Portfolio</title>
+  <link href="images/favicon.ico" rel="icon" />
+  <link href="markbussard/styles/global.css" rel="stylesheet" />
+  <link href="markbussard/styles/projects.css" rel="stylesheet" />
+  <script src="markbussard/components/nav-bar.js" defer></script>
+  <script src="markbussard/scripts/mainMenu.js" defer></script>
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <div id="page">
+      <nav-bar></nav-bar>
+      <main>
+        <section class="section-full-page projects">
+
+          <div class="section-main-content projects-info">
+            <header>
+              <h2 class="section-header">
+                Some things I've built
+              </h2>
+            </header>
+            <p>
+              Outside of my academic school programming assignments and my work,
+              I also enjoy exploring new technologies, whether it's a framework,
+              new language or an API. These days it's usually anything web related.
+            </p>
+            <p>
+              By working on my own projects, I'm able to revisit any problems I've
+              encountered in the past, and figured out better approaches to go about
+              solving them. Essentially figure out what I wanted to do differently
+              (maybe not exactly, but similar) and implement it to see any improvements.
+            </p>
+            <p>
+              I've especially become interested in realtime enabled features, such as
+              Chat applications, or through collaborative work in writing through text editors.
+            </p>
+          </div>
+          <div class="projects-details">
+            <div class="project-card">
+              <header>ZenCMS</header>
+              <section>
+                Content Management System
+                <p>
+                  An application that provides project management tools, similar to sites like
+                  Jira, Clickup, etc.
+                </p>
+              </section>
+              <footer>
+                React, GraphQL, MongoDB, Express, Node.js
+              </footer>
+            </div>
+            <div class="project-card">
+              <header>Conversations App</header>
+              <section>
+                Chat Application
+                <p>
+                  A conversations app implementing using Twilio Conversations API.
+                </p>
+              </section>
+              <footer>
+                React, Styled Components, Node.js, Twilio
+              </footer>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

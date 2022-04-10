@@ -1,0 +1,86 @@
+@import './variables.css';
+
+
+/****** Contact ******/
+.contact {
+  overflow: hidden;
+  display: flex;
+  width: 80%;
+}
+
+.contact-form-wrapper {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-info {
+  margin: 0 auto;
+  padding-left: 0;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .contact {
+    width: 100%;
+  }
+  
+}
+
+.contact-info header,
+.contact-info p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 24px 0;
+}
+
+.contact-form input {
+  background: var(--form-grey);
+  border: 1px solid #ccc;
+  height: 50px;
+  font-size: 16px;
+  color: #8d8d8d;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px 20px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  border: 0;
+  border: 1px solid #ccc;
+  background: var(--form-grey);
+  height: 50px;
+  font-size: 16px;
+  color: #8d8d8d;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 150px;
+}
+
+.contact-form input[type=submit] {
+  background: var(--white);
+  color: var(--dark-black);
+  border: 1px solid;
+  float: right;
+  max-width: 200px;
+  cursor: pointer;
+  margin-top: 20px;
+  line-height: 50px;
+  font-size: 16px;
+  transition: 0.3s ease-out all;
+}
+
+.contact-form input[type=submit]:hover {
+  background: var(--light-black);
+  color: var(--white);
+  border-color: var(--light-black);
+  transition: 0.3s ease-out all;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Portfolio Site" />
+  <meta name="author" content="Mark Bussard" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mark Bussard's Personal Portfolio</title>
+  <link href="markbussard/images/favicon.ico" rel="icon" />
+  <link href="markbussard/styles/experience.css" rel="stylesheet" />
+  <link href="markbussard/styles/global.css" rel="stylesheet" />
+  <script src="markbussard/components/nav-bar.js" defer></script>
+  <script src="markbussard/utils/tagCanvas.min.js" defer></script>
+  <script src="markbussard/scripts/skillsCanvas.js" defer></script>
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <div id="page">
+      <nav-bar></nav-bar>
+      <main>
+        <!-- Skills & Experience -->
+        <section class="section-full-page skills">
+          <div class="section-main-content skills-info">
+            <h2 class="section-header">
+              Experience
+            </h2>
+            <p>
+              I am currently working as a Software Engineer for a San Diego start up, OmniSync.
+              While I mainly work on the front-end, I also spend time working on the back back-end
+              for building out site features. The stack I work with includes React, GraphQL, NodeJS,
+              and Firebase.
+            </p>
+            <p>
+              Outside of the stack I use at work, I have also spent time exploring various other
+              technologies, databases and frameworks. I've built out my own RESTFul APIs through
+              using ExpressJS, paired with Mongoose and MongoDB.
+            </p>
+            <p>
+              While I started out with learning HTML, CSS and vanilla JavaScript, within a couple of
+              months I jumped into working with React. For this reason, I have recently started exploring
+              and attempting to build a more solid understanding of JavaScript without the use of frameworks.
+            </p>
+            <p>View my <a style='color: #000; cursor: pointer;' href="https://www.linkedin.com/in/mark-bussard/"
+                target="_blank">LinkedIn</a> profile for more details or feel free to <a
+                style='color: #000; cursor: pointer;' href="contact.html">contact</a> me.
+          </div>
+          <div class="skills-details">
+            <div id="skills-canvas-container">
+              <canvas id="skills-canvas" height="300" width="300">
+                <div id="tags">
+                  <ul>
+                    <li><a href="#">ReactJS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">NodeJS</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">Git</a></li>
+                    <li><a href="#">GraphQL</a></li>
+                    <li><a href="#">Webpack</a></li>
+                    <li><a href="#">Firebase</a></li>
+                    <li><a href="#">MongoDB</a></li>
+                    <li><a href="#">Mongoose</a></li>
+                    <li><a href="#">ExpressJS</a></li>
+                  </ul>
+                </div>
+              </canvas>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

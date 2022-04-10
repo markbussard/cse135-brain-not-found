@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Portfolio Site" />
+  <meta name="author" content="Mark Bussard" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mark Bussard's Personal Portfolio</title>
+  <link href="markbussard/images/favicon.ico" rel="icon" />
+  <link href="markbussard/styles/global.css" rel="stylesheet" />
+  <link href="markbussard/styles/contact.css" rel="stylesheet" />
+  <script src="markbussard/components/nav-bar.js" defer></script>
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <div id="page">
+      <nav-bar></nav-bar>
+      <main>
+        <section class="section-full-page contact">
+          <div class="section-main-content contact-info">
+            <header>
+              <h2 class="section-header">
+                Let's chat.
+              </h2>
+            </header>
+            <p>
+              I'm interested in any possible freelance projects, however ambitious or large.
+              For any other request or questions, feel free to send me a message.
+            </p>
+            <div class="contact-form-wrapper">
+              <form id="contact" class="contact-form">
+                <input placeholder="Name" type="text" name="name" required />
+                <input placeholder="Email" type="text" name="email" required />
+                <textarea placeholder="Message" type="text" name="message" required></textarea>
+                <input class="submit-button" type="submit" id="submit" />
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>
