@@ -1,0 +1,24 @@
+#team-div {
+  border: 1px solid black;
+  background-color: rgba(222, 213, 213, 0.566);
+  float: right;
+  width: fit-content;
+  padding: 10px;
+  position: relative;
+
+}
+
+#hw1-list{
+  background-color: rgba(222, 213, 213, 0.566);
+}
+
+.TBD{
+  background-color: rgba(222, 213, 213, 0.566);
+}
+
+#page-ref{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
