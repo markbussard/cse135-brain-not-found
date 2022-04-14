@@ -16,7 +16,6 @@ Then from our local machinewe added the remote repository for the server.
 From there we can push to that remote repository and the changes will
 be reflected on our live site. 
 
-## Username/password info for logging into the site
 
 ## Summary of Changes to HTML file in DevTools after Compression
 There were spacing and empty lines within the HTML, in which the compression 
@@ -26,5 +25,12 @@ Both CSS and HTML file was compressed using gzip
 
 
 ## Summary of removing 'server' header
-=======
-
+Installed the package `libapache2-mod-security2` <br> <br>
+Added `security2` module to `/etc/apache2/apache.conf`: <br>
+```
+<IfModule security2_module>
+    SecRuleEngine on
+    ServerTokens Min
+    SecServerSignature "CSE135 Server"
+</IfModule> 
+```
